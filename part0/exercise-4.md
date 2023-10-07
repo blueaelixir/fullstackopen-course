@@ -8,7 +8,7 @@ sequenceDiagram
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
     activate server
 
-    Note right of browser: The browser sends the text from the input as a POST request to be stored a s new note on the server
+    Note right of browser: The browser sends the text from the input as a POST request to be stored as a new note on the server
 
     server-->>browser: a redirect response
     deactivate server
